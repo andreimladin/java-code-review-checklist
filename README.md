@@ -1,5 +1,5 @@
 # Java Code Review Checklist
-I consider the following points a MUST for any Java developer for when he/she is reviewing some Java code changes.
+I consider the following points a MUST for any Java developer for when he/she is pushing some changes for review or he/she is reviewing.
 
 ## Checklist for developers
 - Code Quality

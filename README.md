@@ -21,10 +21,24 @@ I consider the following points a MUST for any Java developer for when he/she is
 	- The code is easy to read (**Readability**)
 	- Avoid duplicate code
 	- Check if the code could be replaced by calling functions in other libraries/components
+- Best Practices
+	- OOP Principles are correctly used
+	- The code follows the SOLID PRINCIPLES
+	- Design Patterns
+		- Recommend a design pattern when you fill that a pattern could fit there
+- Exception Handling
+	- Ensure that each exception is raised and handled correctly
+	- Ensure that you have a well-defined exception hierarchy
+	- Split the exceptions in two types: technical and business
 
 ### Application Structure
 - Ensure that your changes are correctly written on layers and it respects the Spring Boo App Structure
 - Do not mixt up a Rest Service with a Web App (like Spring Rest with Spring MVC )
+
+### Model
+- Understand the meaning of each model you defined and treat it like the most appropiate terminology for it: DTO (form for MVC), entity, Value Object, Java Bean
+- Place it in the correct package
+- For more details check this page [TODO link to be provided]
 
 ### Rest API
 - Ensure your Rest API respects the REST maturity levels
@@ -35,7 +49,6 @@ I consider the following points a MUST for any Java developer for when he/she is
 		- You can get into a confusion when you have to handle differently the same exception in the service, but it comes from different directions, you have 2 clients and cannot reply with the same error codes (one should be internally and the other one specific to the 3rd party)
 - DTO
 	- Use DTO pattern for passing data between controller and service layer (at least when using **sensitive** or **aggregated** data)
-
 
 ### MVC
 - Ensure that your Model-View-Controller parts of the Web Application are compliant to the Best Practices

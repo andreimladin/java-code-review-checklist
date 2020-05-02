@@ -1,3 +1,22 @@
+# Java Code Review Checklist
+I consider the following points a MUST for any Java developer for when he/she is reviewing some Java code changes.
+
+## Checklist for developers
+- Code Quality
+	- Basic Checks (before)
+		- The code compiles
+		- Old unit tests pass
+	- The code was tested
+		- The code was developer-tested
+		- The new code must be covered by unit tests
+		- Any refactoring must be covered by unit tests
+	- Clean Code
+		- Naming Conventions
+		- No hard-coded variables
+* Unit Testing
+- Performance
+	 Release resources (HTTP connections, DB connections, Files, any I/O streams )
+
 # Code Quality
 ## Clean Code
 Ensure that the code is clean as much as possible. Check also that SOLID principles are followed TODO Link to be provided

@@ -31,6 +31,8 @@ I consider the following points a MUST for any Java developer for when he/she is
 	- Ensure that you have a well-defined exception hierarchy
 	- Split the exceptions in two types: technical and business
 
+### Branching Strategy
+
 ### Application Structure
 - Ensure that your changes are correctly written on layers and it respects the Spring Boo App Structure
 - Do not mixt up a Rest Service with a Web App (like Spring Rest with Spring MVC )
